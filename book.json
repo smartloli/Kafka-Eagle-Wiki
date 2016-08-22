@@ -2,5 +2,9 @@
     "plugins": [
         "tongji"
     ],
-    "pluginsConfig": {}
+    "pluginsConfig": {
+      "tongji": {
+        "token": "29e8735c2186d3a9d84867490375aa59"
+      }
+    }
 }
