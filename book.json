@@ -8,5 +8,6 @@
         "modify_label": "Modify: ",
         "modify_format": "YYYY-MM-DD HH:mm:ss"
       }
-    }
+    },
+     "plugins": ["toggle-chapters"]
 }
