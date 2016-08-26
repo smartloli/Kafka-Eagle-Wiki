@@ -1,0 +1,31 @@
+{
+  "title": "Kafka Eagle",
+  "description": "Kafka Eagle 使用手册",
+  "author": "smartloli",
+  "generator": "site",
+  "language": "zh-hans",
+  "links": {
+    "sidebar": {
+      "Kafka Eagle": "http://ke.smartloli.org"
+    }
+  },
+  "plugins": [
+    "-disqus",
+    "-search",
+    "tbfed-pagefooter",
+    "baidu"
+  ],
+  "pluginsConfig": {
+    "tbfed-pagefooter": {
+      "copyright": "Copyright &copy http://ke.smartloli.org 2016",
+      "modify_label": "Modify: ",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "baidu": {
+      "token": "82e23dee35a7d3ed078b593f36a16dc9"
+    },
+    "fontsettings": {
+      "size": 1
+    }
+  }
+}
