@@ -5,7 +5,7 @@
         
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>1.数据采集 | Kafka Eagle</title>
+        <title>5.Alarm | Kafka Eagle</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="generator" content="GitBook 2.6.6">
@@ -37,10 +37,10 @@
         
     
     
-    <link rel="next" href="../5.ChangeLog/1.ChangeLog.html" />
+    <link rel="next" href="../4.设计理念/1.数据采集.html" />
     
     
-    <link rel="prev" href="../3.使用手册/5.Alarm.html" />
+    <link rel="prev" href="../3.使用手册/4.Cluster Info.html" />
     
 
         
@@ -49,9 +49,9 @@
         
         
     <div class="book"
-        data-level="4.1"
-        data-chapter-title="1.数据采集"
-        data-filepath="4.设计理念/1.数据采集.md"
+        data-level="3.5"
+        data-chapter-title="5.Alarm"
+        data-filepath="3.使用手册/5.Alarm.md"
         data-basepath=".."
         data-revision="Mon Sep 12 2016 10:15:45 GMT+0800 (CST)"
         data-innerlanguage="">
@@ -228,7 +228,7 @@
             
         </li>
     
-        <li class="chapter " data-level="3.5" data-path="3.使用手册/5.Alarm.html">
+        <li class="chapter active" data-level="3.5" data-path="3.使用手册/5.Alarm.html">
             
                 
                     <a href="../3.使用手册/5.Alarm.html">
@@ -256,7 +256,7 @@
             <ul class="articles">
                 
     
-        <li class="chapter active" data-level="4.1" data-path="4.设计理念/1.数据采集.html">
+        <li class="chapter " data-level="4.1" data-path="4.设计理念/1.数据采集.html">
             
                 
                     <a href="../4.设计理念/1.数据采集.html">
@@ -337,11 +337,16 @@
                 
                     <section class="normal" id="section-">
                     
-                        <h1 id="&#x6570;&#x636E;&#x91C7;&#x96C6;">&#x6570;&#x636E;&#x91C7;&#x96C6;</h1>
-<p>Kafka Eagel &#x76D1;&#x63A7;&#x7684;&#x6D88;&#x606F;&#x6570;&#x636E;&#x6E90;&#xFF0C;&#x6765;&#x81EA;&#x4E8E; Zookeeper&#x3002;&#x7531;&#x4E8E;&#x521B;&#x5EFA;&#xFF0C;&#x4FEE;&#x6539;&#x6216;&#x662F;&#x6D88;&#x8D39; Kafka &#x7684;&#x6D88;&#x606F;&#xFF0C;&#x90FD;&#x4F1A;&#x5728; Zookeeper &#x4E2D;&#x8FDB;&#x884C;&#x6CE8;&#x518C;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x4ECE;&#x4E2D;&#x83B7;&#x53D6;&#x6570;&#x636E;&#x7684;&#x53D8;&#x52A8;&#xFF0C;&#x4F8B;&#x5982;&#xFF1A;Topic&#xFF0C;Brokers&#xFF0C;Partitions &#x4EE5;&#x53CA; Group &#x7B49;&#xFF0C;Kafka &#x5728; Zookeeper &#x7684;&#x7ED3;&#x6784;&#x5B58;&#x50A8;&#xFF0C;&#x5982;&#x4E0B;&#x56FE;&#x6240;&#x793A;&#xFF1A;
-<img src="../res/zk_kafka_meta@2x.png" alt="zk_kafka_meta"></p>
+                        <h1 id="&#x544A;&#x8B66;">&#x544A;&#x8B66;</h1>
+<p>&#x65B0;&#x589E;&#x544A;&#x8B66;&#x6A21;&#x5757;&#xFF0C;&#x7ED9;&#x81EA;&#x5DF1;&#x5173;&#x6CE8;&#x7684; Topic &#x8BBE;&#x7F6E;&#x544A;&#x8B66;&#x3002;&#x5F53; Topic &#x7684;&#x672A;&#x6D88;&#x8D39;&#x4FE1;&#x606F;&#xFF0C;&#x8D85;&#x8FC7;&#x8BBE;&#x5B9A;&#x9600;&#x503C;&#xFF0C;&#x5C06;&#x8FDB;&#x884C;&#x544A;&#x8B66;&#x3002;&#x76EE;&#x524D;&#x544A;&#x8B66;&#x65B9;&#x5F0F;&#x901A;&#x8FC7;&#x90AE;&#x4EF6;&#x7684;&#x65B9;&#x5F0F;&#x8FDB;&#x884C;&#x544A;&#x8B66;&#xFF0C;&#x8BBE;&#x7F6E;&#x5982;&#x4E0B;&#x56FE;&#x6240;&#x793A;&#xFF1A;</p>
+<h2 id="&#x914D;&#x7F6E;&#x544A;&#x8B66;">&#x914D;&#x7F6E;&#x544A;&#x8B66;</h2>
+<p><img src="../res/alarm_add@2x.png" alt="alarm_add"></p>
+<h2 id="&#x544A;&#x8B66;&#x5217;&#x8868;">&#x544A;&#x8B66;&#x5217;&#x8868;</h2>
+<p><img src="../res/alarm_list@2x.png" alt="alarm_list"></p>
+<pre><code class="lang-bash">PS&#xFF1A;&#x4E8C;&#x8FDB;&#x5236;&#x5B89;&#x88C5;&#x5305;&#xFF0C;&#x63D0;&#x4F9B;&#x4E86;&#x4E00;&#x4E2A; smtp &#x6D4B;&#x8BD5;&#x90AE;&#x4EF6;&#x670D;&#x52A1;&#x5668;&#xFF0C;&#x6709;&#x4E22;&#x5305;&#x7684;&#x60C5;&#x51B5;&#x5B58;&#x5728;&#x3002;&#x5728;&#x5B9E;&#x9645;&#x4F7F;&#x7528;&#x4E2D;&#x5EFA;&#x8BAE;&#xFF0C;&#x914D;&#x7F6E;&#x81EA;&#x5DF1;&#x7684; stmp &#x90AE;&#x4EF6;&#x670D;&#x52A1;&#x5668;&#x3002;
+</code></pre>
 <footer class="page-footer"><span class="copyright">Copyright &#xA9; <a href="http://ke.smartloli.org" target="_blank">smartloli</a> 2016 all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">Modify: 
-2016-08-17 20:27:29
+2016-09-12 10:15:45
 </span></footer>
                     
                     </section>
@@ -352,10 +357,10 @@
         </div>
 
         
-        <a href="../3.使用手册/5.Alarm.html" class="navigation navigation-prev " aria-label="Previous page: 5.Alarm"><i class="fa fa-angle-left"></i></a>
+        <a href="../3.使用手册/4.Cluster Info.html" class="navigation navigation-prev " aria-label="Previous page: 4.Cluster Info"><i class="fa fa-angle-left"></i></a>
         
         
-        <a href="../5.ChangeLog/1.ChangeLog.html" class="navigation navigation-next " aria-label="Next page: 1.ChangeLog"><i class="fa fa-angle-right"></i></a>
+        <a href="../4.设计理念/1.数据采集.html" class="navigation navigation-next " aria-label="Next page: 1.数据采集"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>
