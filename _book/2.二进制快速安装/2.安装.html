@@ -53,7 +53,7 @@
         data-chapter-title="2.安装"
         data-filepath="2.二进制快速安装/2.安装.md"
         data-basepath=".."
-        data-revision="Mon Sep 12 2016 10:16:25 GMT+0800 (CST)"
+        data-revision="Wed Sep 14 2016 12:40:04 GMT+0800 (CST)"
         data-innerlanguage="">
     
 
@@ -344,12 +344,16 @@
 </ul>
 <h2 id="2&#x89E3;&#x538B;-kafka-eagle">2.&#x89E3;&#x538B; Kafka Eagle</h2>
 <p>&#x8FD9;&#x91CC;&#x6211;&#x4EEC;&#x89E3;&#x538B;&#x5230; <code>/data/soft/new</code> &#x76EE;&#x5F55;&#x4E0B;&#xFF0C;&#x89E3;&#x538B;&#x547D;&#x4EE4;&#xFF0C;&#x5982;&#x4E0B;&#x6240;&#x793A;&#xFF1A;</p>
-<pre><code class="lang-bash">tar -zxvf kafka-eagle-<span class="hljs-number">1.0</span>.<span class="hljs-number">5</span>-bin.tar.gz
+<pre><code class="lang-bash">tar -zxvf kafka-eagle-<span class="hljs-variable">${version}</span>-bin.tar.gz
+</code></pre>
+<p>&#x5982;&#x679C;&#x4E4B;&#x524D;&#x5B89;&#x88C5;&#x8FC7;&#x7248;&#x672C;&#xFF0C;&#x5220;&#x9664;&#x6539;&#x7248;&#x672C;&#xFF0C;&#x5E76;&#x91CD;&#x547D;&#x540D;&#x5F53;&#x524D;&#x7248;&#x672C;&#xFF0C;&#x5982;&#x4E0B;&#x6240;&#x793A;&#xFF1A;</p>
+<pre><code class="lang-bash">rm -rf kafka-eagle
+mv kafka-eagle-<span class="hljs-variable">${version}</span> kafka-eagle
 </code></pre>
 <h2 id="3&#x914D;&#x7F6E;-kafka-eagle-&#x73AF;&#x5883;&#x53D8;&#x91CF;">3.&#x914D;&#x7F6E; Kafka Eagle &#x73AF;&#x5883;&#x53D8;&#x91CF;</h2>
 <pre><code class="lang-bash">vi /etc/profile
 
-<span class="hljs-built_in">export</span> KE_HOME=/data/soft/new/kafka-eagle-<span class="hljs-number">1.0</span>.<span class="hljs-number">5</span>
+<span class="hljs-built_in">export</span> KE_HOME=/data/soft/new/kafka-eagle
 <span class="hljs-built_in">export</span> PATH=<span class="hljs-variable">$PATH</span>:<span class="hljs-variable">$KE_HOME</span>/bin
 </code></pre>
 <p>&#x7136;&#x540E;&#xFF0C;&#x6211;&#x4EEC;&#x4F7F;&#x7528; <code>. /etc/profile</code> &#x4F7F;&#x914D;&#x7F6E;&#x7ACB;&#x5373;&#x751F;&#x6548;&#x3002;</p>
@@ -374,7 +378,7 @@ chmod +x ke.sh
 ./ke.sh start
 </code></pre>
 <footer class="page-footer"><span class="copyright">Copyright &#xA9; <a href="http://ke.smartloli.org" target="_blank">smartloli</a> 2016 all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">Modify: 
-2016-09-12 09:58:19
+2016-09-14 10:24:37
 </span></footer>
                     
                     </section>
