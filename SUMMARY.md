@@ -12,6 +12,7 @@
    * [3.Consumer](3.使用手册/3.Consumer.md)
    * [4.Cluster Info](3.使用手册/4.Cluster Info.md)
    * [5.Alarm](3.使用手册/5.Alarm.md)
+   * [6.脚本命令](3.使用手册/6.脚本命令.md)
 * 4.设计理念
    * [1.数据采集](4.设计理念/1.数据采集.md)
 * 5.ChangeLog
