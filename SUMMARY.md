@@ -13,6 +13,7 @@
    * [4.Cluster Info](3.Manuals/4.Cluster Info.md)
    * [5.Alarm](3.Manuals/5.Alarm.md)
    * [6.脚本命令](3.Manuals/6.Shell.md)
+   * [7.ZKCli](3.Manuals/7.zkCli.md)
 * 4.设计理念
    * [1.数据采集](4.Designed/1.Collector.md)
 * 5.ChangeLog
