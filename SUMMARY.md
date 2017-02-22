@@ -14,6 +14,7 @@
    * [5.Alarm](3.Manuals/5.Alarm.md)
    * [6.Shell](3.Manuals/6.Shell.md)
    * [7.ZKCli](3.Manuals/7.zkCli.md)
+   * [8.Multi-Cluster](3.Manuals/8.Multi-Cluster.md)
 * 4.Designed
    * [1.Collector](4.Designed/1.Collector.md)
 * 5.ChangeLog
