@@ -16,6 +16,7 @@
    * [7.ZKCli](3.Manuals/7.zkCli.md)
    * [8.Multi-Cluster](3.Manuals/8.Multi-Cluster.md)
    * [9.KafkaSQL](3.Manuals/9.KafkaSQL.md)
+   * [10.System](3.Manuals/10.System.md)
 * 4.Designed
    * [1.Collector](4.Designed/1.Collector.md)
 * 5.ChangeLog
