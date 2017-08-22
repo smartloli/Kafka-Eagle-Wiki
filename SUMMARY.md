@@ -6,7 +6,7 @@
 * 2.Env & Install
    * [1.Env](2.Install/1.Env.md)
    * [2.Install](2.Install/2.Installing.md)
-   * [3.Install On Windows](2.Install/3.InstallingOnWindows.md)
+   * [3.Install-On-Windows](2.Install/3.InstallingOnWindows.md)
 * 3.Quick Start
    * [1.Dashboard](3.Manuals/1.Dashboard.md)
    * [2.Topic](3.Manuals/2.Topic.md)
