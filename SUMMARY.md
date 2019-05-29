@@ -8,6 +8,7 @@
    * [2.Install](2.Install/2.Installing.md)
    * [3.Install-On-Windows](2.Install/3.InstallingOnWindows.md)
    * [4.Configuration](2.Install/4.Configure.md)
+   * [5.Security](2.Install/5.Security.md)
 * 3.Quick Start
    * [1.Dashboard](3.Manuals/1.Dashboard.md)
    * [2.Topic](3.Manuals/2.Topic.md)
