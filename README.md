@@ -6,7 +6,7 @@ So, start reading from the [catalog](https://docs.kafka-eagle.org/)!
 
 # Contact:
 * Blog : http://www.cnblogs.com/smartloli/
-* Gmail: [kafka.eagle@gmail.com](mailto:kafka.eagle@gmail.com)
+* Gmail: [smartloli.org@gmail.com](mailto:smartloli.org@gmail.com)
 * Twitter : [smartloli](https://twitter.com/smartloli)
 * Github : [Kafka Eagle](https://github.com/smartloli/kafka-eagle)
 * QQ Group : [424769183](http://shang.qq.com/wpa/qunwpa?idkey=b07c12828ed6963fe79078c78bbd1aba7e61b8f5d8fc5ee4ed26809f40b35c37)
