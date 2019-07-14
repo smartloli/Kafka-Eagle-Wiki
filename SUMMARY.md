@@ -26,6 +26,6 @@
    * [2.Part II](4.Designed/2.PartII.md)
    * [3.Part III](4.Designed/3.PartIII.md)
    * [4.Part IV](4.Designed/4.PartIV.md)
-   * [5.PPT & PDF](4.Designed/5.PPT.md)
+   * [5.PDF](4.Designed/5.PDF.md)
 * 5.ChangeLog
    * [1.ChangeLog](5.ChangeLog/1.ChangeLog.md)
