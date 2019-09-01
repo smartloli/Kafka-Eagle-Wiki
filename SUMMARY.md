@@ -21,6 +21,7 @@
    * [9.KafkaSQL](3.Manuals/9.KafkaSQL.md)
    * [10.System](3.Manuals/10.System.md)
    * [11.Metrics](3.Manuals/11.Metrics.md)
+   * [12.BScreen](3.Manuals/12.BScreen.md)
 * 4.Designed
    * [1.Part I](4.Designed/1.PartI.md)
    * [2.Part II](4.Designed/2.PartII.md)
