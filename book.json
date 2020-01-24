@@ -17,7 +17,7 @@
   ],
   "pluginsConfig": {
     "tbfed-pagefooter": {
-      "copyright": "Copyright &copy <a href='http://www.kafka-eagle.org/articles/about/me.html'>smartloli</a> 2019",
+      "copyright": "Copyright &copy <a href='http://www.kafka-eagle.org/articles/about/me.html'>smartloli</a> 2020",
       "modify_label": "Modify: ",
       "modify_format": "YYYY-MM-DD HH:mm:ss"
     },
